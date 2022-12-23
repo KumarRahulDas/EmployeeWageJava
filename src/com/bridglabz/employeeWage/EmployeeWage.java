@@ -4,7 +4,7 @@ public class EmployeeWage {
     public static void main(String[] args) {
         System.out.println("Welcome to Employee Wage Computation Program");
         Random random = new Random();
-<<<<<<< HEAD
+
         int attendance = random.nextInt(3); // Generate 3 random number 0,1,2
 
         int WAGEPERHOUR = 20;
@@ -28,7 +28,7 @@ public class EmployeeWage {
 
         System.out.println("Employee Wage Per Day :-" + WAGEPERDAY);
     }
-=======
+
     int attendance = random.nextInt(3);
 
     int WAGEPERHOUR = 20;
