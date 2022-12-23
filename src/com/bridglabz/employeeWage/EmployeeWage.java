@@ -1,6 +1,7 @@
 package com.bridglabz.employeeWage;
 //Employee Wage Computation Problems
 import java.util.Random;
+<<<<<<< HEAD
 public class EmployeeWage
 {
     static final int WAGE_PER_HOUR = 20;
@@ -54,5 +55,30 @@ public class EmployeeWage
         System.out.println("Total Working Days :" +totalworkingdays);
         System.out.println("Total Working Hours :" +totalworkinghours);
         System.out.println("Total wage of employee for the month is : " + empWage);
+=======
+public class EmployeeWage {
+    public static void main(String[] args) {
+        System.out.println("Welcome to Employee Wage Computation Program");
+        Random random = new Random();
+        int attendance = random.nextInt(3);
+
+        int WAGEPERHOUR = 20;
+        int FULLDAYHOURS = 8;
+        int PARTTIMEHOURS = 4;
+        int WAGEPERDAY = 0;
+
+        switch (attendance) {
+            case 0:
+                System.out.println("Employee Absent.");
+                break;
+            case 1:
+                WAGEPERDAY = PARTTIMEHOURS * WAGEPERHOUR;
+                break;
+            default:
+                WAGEPERDAY = FULLDAYHOURS * WAGEPERHOUR;
+
+        }
+        System.out.println("Employee Wage Per Day: " + WAGEPERDAY);
+>>>>>>> 0876ed613bbf86270e447df6e50d48392985b9cf
     }
 }
