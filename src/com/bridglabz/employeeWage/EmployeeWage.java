@@ -1,5 +1,6 @@
 package com.bridglabz.employeeWage;
 import java.util.Random;
+import java.util.Scanner;
 public class EmployeeWage
 {
     public static final int IS_PART_TIME = 1;
